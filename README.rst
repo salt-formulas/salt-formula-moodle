@@ -1,9 +1,17 @@
 
-## Moodle e-learning system
+==============
+Moodle Formula
+==============
 
-Moodle is a Course Management System (CMS), also known as a Learning Management System (LMS) or a Virtual Learning Environment (VLE). It is a Free web application that educators can use to create effective online learning sites.
+Moodle is a Course Management System (CMS), also known as a Learning
+Management System (LMS) or a Virtual Learning Environment (VLE). It is
+a Free web application that educators can use to create effective online
+learning sites.
 
-### Sample pillar
+Sample Pillars
+==============
+
+.. code-block:: yaml
 
     moodle:
       enabled: true
@@ -28,7 +36,8 @@ Moodle is a Course Management System (CMS), also known as a Learning Management 
             address: git@repo.git.cz:domain/repo.git
             branch: master
 
-### Read more
+More Information
+================
 
 * https://moodle.org/plugins/view.php?plugin=cachestore_apc
 * http://midact.com/content/moodle-how-enable-memcached
