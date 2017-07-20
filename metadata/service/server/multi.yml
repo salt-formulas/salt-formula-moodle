@@ -1,0 +1,6 @@
+classes:
+- service.moodle.support
+parameters:
+  moodle:
+    server:
+      enabled: true
