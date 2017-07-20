@@ -1,5 +1,7 @@
 applications:
 - moodle
+classes:
+- service.moodle.support
 parameters:
   moodle:
     server:
